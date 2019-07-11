@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                <meta name="description" content="">
+                    <meta name="author" content="">
+                        <link rel="icon" href="../../../../favicon.ico">
+                            
+                            <title>TC18 main site</title>
+                            
+                            <!-- Bootstrap core CSS -->
+                            <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+                                <link rel="stylesheet" type="text/css" href="dist/css/custom.css">
+                                <script src="include.js"></script>                                                                     
+                                            
+                                    
+                                    
+                                    </head>
+    
+    <body>
+      <div id="headerSite" contentHeader="header.html"></div>            
+      <script>includeHTML("contentHeader");</script>
+
+        
+      <nav contentMenu="menu.html" id="navMenu" class="navbar  blurry navbar-expand-md navbar-dark  navbar-dark  mb-4 sticky-top">
+        <script>includeHTML("contentMenu");</script>
+       </nav>
+        <div id="site_content" class=" ml-0  mr-0">
+          
+            <div class="row ml-3 mr-1">
+                <div class="col-12  text-justify  " >
+    <div id="site_content">
+      
+
+
+      <div id="content">
+        <h2>Contact</h2>
+
+        
+                    <form name="mail" action="mailto:tc18@tc18.org?subject=Contact from TC18 website" method="POST" enctype="text/plain" target="_blank" >
+                        <div class="row">
+                            
+                            <div class="form-group col-md-4">
+                                <label class= "mt-2" for="nameInput">Name :</label>
+                                <input type="text" class="form-control mb-2" id="nameInput" name="name" placeholder="Your name">
+                                    <label for="exampleFormControlInput1">Email address: </label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+                                        </div>
+                            
+
+                            <div class="form-group mx-auto col-md-12">
+                              <textarea class="form-control" id="exampleFormControlTextarea1" name ="comment" rows="5"> .... </textarea>
+                                <button type="submit" class="btn btn-primary mt-2" value="Send">Send</button>
+                                <button type="reset" class="btn btn-secondary mt-2" value="Send">Reset</button>
+
+                            </div>
+                            </form>
+
+
+
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+            </div>
+            
+            
+        <div id="footerSite"></div>            
+            
+            <!-- Bootstrap core JavaScript
+             ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="dist/js/bootstrap.min.js"></script>
+            <div contentFooter="footer.html"></div>            
+            <script>includeHTML("contentFooter");</script>
+            
+        </div>
+    </body>
+</html>
+
