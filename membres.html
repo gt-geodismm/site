@@ -1,25 +1,20 @@
 <!doctype html>
 <html lang="en">
+  <meta charset="UTF-8"/>
   <script src="include.js"></script>                                                                     
   <div contentHead="head.html"> </div>    
   <script>includeHTML("contentHead");</script>
+  
+  <body>
+    <div id="headerSite" contentHeader="header.html"></div>
+    <script>includeHTML("contentHeader");</script>
     
-    <body>
-      <div id="headerSite" contentHeader="header.html"></div>            
-      <script>includeHTML("contentHeader");</script>
+    <div contentMenu="menu.html"> </div>
+    <script>includeHTML("contentMenu");</script>
+    
+    <div id="site_content" class=" ml-3 max-auto  mr-3">
 
-        
-      <nav contentMenu="menu.html" id="navMenu" class="navbar  blurry navbar-expand-md navbar-dark  navbar-dark  mb-4 sticky-top">
-        <script>includeHTML("contentMenu");</script>
-       </nav>
-        <div id="site_content" class=" ml-0  mr-0">
-          
-          <div class="row ml-3 mr-1">
-            <div class="col-12  text-justify  " >
-              <div id="site_content">
-                
-                
-                <h2>Membres du Groupe de Travail</h2>
+<h2>Membres du Groupe de Travail</h2>
 <h3><a href="http://cmm.ensmp.fr/">CMM</a> (MINES ParisTech)</h3>
 <ul>
  	<li>Jesus Angulo, Maître de conférences</li>
@@ -290,24 +285,14 @@
  	<li>Rabaa Youssef</li>
  	<li>Mariette Yvinec</li>
 </ul>
-            
-              </div>    
-            <div id="footerSite"></div>            
-            
-            <!-- Bootstrap core JavaScript
-             ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="dist/js/bootstrap.min.js"></script>
-
-
+      
+        
+      
+    
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-            <div id="footerSite"</div>
-            <script src="footer.js"></script>
-
-            
-        </div>
-    </body>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <div id="footerSite"></div>            
+      <script src="footer.js"></script>
+    </div>
+  </body>
 </html>
-
