@@ -9,7 +9,7 @@ var urlsource = "https://github.com/gt-geodismm/site/blob/master/"+pagename;
 document.getElementById("footerSite").innerHTML = ' \
     <hr/> \
     <div class="footer"> \
-    <a href="index.html">Site web GT-GeoDis-MM </a>. \
+    <a href="index.html">Site web GT-GDMM </a>. \
  Vous pouvez contribuer à l édition du site à  travers  la <a href=https://github.com/gt-geodismm/site/> page source  Github</a> et directement éditer cette page <a href="'+urlsource+'"> ici </a> \
          </div>\
 '; 
